@@ -1,28 +1,27 @@
-.title{
-    margin: auto;
-    width: 300px;
-    background-color: rgba(255, 110, 255, 0.747);
-    border-radius: 0.5em;
+*{
+    scroll-behavior: smooth;
 }
-h2{
-    color: rgb(245, 12, 148);
-    text-decoration: underline;
-    text-align: center;
-}
-.headerbox{
-    background-color: rgb(167, 0, 159);
-}
-.headerbox img{
-    height: 450px;
-}
-.conteudo{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17pt;
-    margin-top: 0.5em;
+body{
+    background-color: rgb(6, 8, 31);
 }
 
-h5{
+.divider{
+    letter-spacing: .2em;
     font-size: 20pt;
-    color: rgb(245, 12, 148);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 66, 165);
+    text-align: center;
+    margin-bottom: 1.3em;
+}
+#projects{
+    margin-bottom: 5em;
+    border-top-left-radius: 3em;
+}
+.card{
+    border: 2px solid rgba(0, 66, 165, 0.544);;
+    height: 200px;
+    margin-top: 0.5em;
+}
+.card img{
+    height: 200px;
 }
