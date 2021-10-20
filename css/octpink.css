@@ -1,20 +1,17 @@
-.title{
-    margin: auto;
-    width: 300px;
-    background-color: rgba(255, 110, 255, 0.747);
-    border-radius: 0.5em;
+*{
+    scroll-behavior: smooth;
 }
+body{
+    background-color: rgb(6, 8, 31);
+    color: white;
+}
+
 h2{
     color: rgb(245, 12, 148);
     text-decoration: underline;
     text-align: center;
 }
-.headerbox{
-    background-color: rgb(167, 0, 159);
-}
-.headerbox img{
-    height: 450px;
-}
+
 .conteudo{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -23,6 +20,22 @@ h2{
 }
 
 h5{
+    padding: 1em;
     font-size: 20pt;
     color: rgb(245, 12, 148);
 }
+.subheader ul{
+    margin: auto;
+    background-color: rgb(152, 66, 152);
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    width: 710px;
+}
+.subheader a{
+    text-decoration: none;
+    color: black;
+}
+.subheader a:hover{
+    color: black;
+}
+
