@@ -29,7 +29,7 @@ h5{
     background-color: rgb(152, 66, 152);
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
-    width: 710px;
+    max-width: 710px;
 }
 .subheader a{
     text-decoration: none;
@@ -37,5 +37,9 @@ h5{
 }
 .subheader a:hover{
     color: black;
+}
+.subheader img{
+    margin: auto;
+    max-width: 710px;
 }
 
