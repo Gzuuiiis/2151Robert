@@ -18,11 +18,11 @@ body{
     border-top-left-radius: 3em;
 }
 .card{
-    border: 2px solid rgba(0, 66, 165, 0.544);;
-    height: 200px;
+    height: 190px;
     margin-top: 0.5em;
 }
 .card img{
+    border: 2px solid rgba(0, 66, 165, 0.544);
     height: 200px;
 }
 
